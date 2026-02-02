@@ -1,0 +1,347 @@
+body {
+  margin: 0 auto;
+  overflow-x: hidden;
+  background-color: #000000;
+  background-image: url(img/beautiful-shining-stars-night-sky.jpg);
+}
+
+.section {
+  position: absolute;
+  left: 4vw;
+}
+
+#rectangle1 {
+  position: absolute;
+  width: 40.4vw;
+  height: 20.8vw;
+  background-color: #c406a1;
+  top: 1.17vw;
+  left: 5.3vw;
+  transform: rotate(50deg);
+  box-shadow:
+    0 0 10px #ffb7f2,
+    0 0 20px #c406a1,
+    0 0 40px #c406a1;
+}
+
+#rectangle2 {
+  position: absolute;
+  border-radius: 100%;
+  width: 20.5vw;
+  height: 20.5vw;
+  background-color: #5e00d1;
+  top: 3.2vw;
+  left: 43.6vw;
+  box-shadow:
+    0 0 10px #d7b6ff,
+    0 0 20px #5e00d1,
+    0 0 40px #5e00d1;
+}
+
+#rectangle3 {
+  position: absolute;
+  width: 64vw;
+  height: 20vw;
+  background-color: #0008ff;
+  top: 16.8vw;
+  left: 15.16vw;
+  transform: rotate(-9deg);
+  box-shadow:
+    0 0 10px #d7b6ff,
+    0 0 20px #0008ff,
+    0 0 40px #0008ff;
+}
+
+#rectangle4 {
+  position: absolute;
+  width: 22.7vw;
+  height: 22.7vw;
+  background-color: #edcaff;
+  top: 22.7vw;
+  left: 24vw;
+  transform: rotate(25deg);
+  box-shadow:
+    0 0 10px #ffb7f2,
+    0 0 20px #c406a1,
+    0 0 40px #c406a1;
+}
+
+#rectangle5 {
+  position: absolute;
+  width: 25.9vw;
+  height: 7.3vw;
+  background-color: #7fd9ff;
+  top: 33.6vw;
+  left: 42.7vw;
+  transform: rotate(-36deg);
+  box-shadow:
+    0 0 10px #d7b6ff,
+    0 0 20px #0008ff,
+    0 0 40px #0008ff;
+}
+
+#rectangle6 {
+  position: absolute;
+  width: 25.8vw;
+  height: 1.3vw;
+  background-color: #a970ff;
+  top: 19.4vw;
+  left: 65.5vw;
+  transform: rotate(12deg);
+  box-shadow:
+    0 0 10px #d7b6ff,
+    0 0 20px #5e00d1,
+    0 0 40px #5e00d1;
+}
+
+#rectangle7 {
+  position: absolute;
+  width: 35vw;
+  height: 0.9vw;
+  background-color: #ff81d5;
+  top: 33vw;
+  left: 50vw;
+  transform: rotate(115deg);
+  box-shadow:
+    0 0 10px #ffb7f2,
+    0 0 20px #c406a1,
+    0 0 40px #c406a1;
+}
+
+#rectangle8 {
+  position: absolute;
+  width: 20.6vw;
+  height: 9.3vw;
+  background-color: #b3a9ff;
+  top: 30vw;
+  left: 6.6vw;
+  transform: rotate(10deg);
+  box-shadow:
+    0 0 10px #d7b6ff,
+    0 0 20px #5e00d1,
+    0 0 40px #5e00d1;
+}
+
+#rectangle9 {
+  position: absolute;
+  border-radius: 100%;
+  width: 30vw;
+  height: 13vw;
+  background-color: #ff69d9;
+  top: 23.8vw;
+  left: 42.4vw;
+  box-shadow:
+    0 0 10px #ffb7f2,
+    0 0 20px #c406a1,
+    0 0 40px #c406a1;
+}
+
+#rectangle10 {
+  position: absolute;
+  width: 35vw;
+  height: 2.5vw;
+  background-color: #ff0593;
+  top: 25.4vw;
+  left: 54vw;
+  transform: rotate(-128deg);
+  box-shadow:
+    0 0 10px #ffb7f2,
+    0 0 20px #c406a1,
+    0 0 40px #c406a1;
+}
+.button {
+  position: absolute;
+  left: 40%;
+  background: none;
+  outline: none;
+  border: none;
+  width: 20vw;
+  height: 1vh;
+  top: 20%;
+}
+
+.button p {
+  font-size: 3vw;
+  color: #ffe4f7;
+  font-weight: 600;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-shadow:
+    0 0 5px #ff00fb,
+    0 0 10px #ff00fb,
+    0 0 20px #ff00fb,
+    0 0 40px #ffffff;
+}
+
+.section2 {
+  width: 100%;
+  height: 20vh;
+  position: absolute;
+  top: 100%;
+}
+
+.deformAnim1 {
+  animation: deformAnim1 0.3s ease-out forwards;
+}
+
+@keyframes deformAnim1 {
+  0% {
+    top: 1.17vw;
+    left: 13.3vw;
+    transform: rotate(-35deg);
+  }
+  100% {
+    top: 3vw;
+    left: 9.8vw;
+    transform: rotate(-45deg);
+  }
+}
+
+.deformAnim2 {
+  animation: deformAnim2 0.3s ease-out forwards;
+}
+
+@keyframes deformAnim2 {
+  0% {
+    top: 3.2vw;
+    left: 43.6vw;
+  }
+  100% {
+    top: 3vw;
+    left: 46.7vw;
+  }
+}
+
+.deformAnim3 {
+  animation: deformAnim3 0.3s ease-out forwards;
+}
+
+@keyframes deformAnim3 {
+  0% {
+    top: 16.8vw;
+    left: 15.16vw;
+    transform: rotate(-9deg);
+  }
+  100% {
+    top: 14vw;
+    left: 7.5vw;
+    transform: rotate(-20deg);
+  }
+}
+
+.deformAnim4 {
+  animation: deformAnim4 0.3s ease-out forwards;
+}
+
+@keyframes deformAnim4 {
+  0% {
+    top: 22.7vw;
+    left: 24vw;
+    transform: rotate(-20deg);
+  }
+  100% {
+    top: 22vw;
+    left: 18vw;
+    transform: rotate(-40deg);
+  }
+}
+
+.deformAnim5 {
+  animation: deformAnim5 0.3s ease-out forwards;
+}
+
+@keyframes deformAnim5 {
+  0% {
+    top: 33.6vw;
+    left: 42.7vw;
+    transform: rotate(-36deg);
+  }
+  100% {
+    top: 39vw;
+    left: 44vw;
+    transform: rotate(-10deg);
+  }
+}
+
+.deformAnim6 {
+  animation: deformAnim6 0.3s ease-out forwards;
+}
+
+@keyframes deformAnim6 {
+  0% {
+    top: 19.4vw;
+    left: 65.5vw;
+    transform: rotate(12deg);
+  }
+  100% {
+    top: 21.6vw;
+    left: 74vw;
+    transform: rotate(18deg);
+  }
+}
+
+.deformAnim7 {
+  animation: deformAnim7 0.3s ease-out forwards;
+}
+
+@keyframes deformAnim7 {
+  0% {
+    top: 33vw;
+    left: 50vw;
+    transform: rotate(115deg);
+  }
+  100% {
+    top: 34vw;
+    left: 53vw;
+    transform: rotate(101deg);
+  }
+}
+
+.deformAnim8 {
+  animation: deformAnim8 0.3s ease-out forwards;
+}
+
+@keyframes deformAnim8 {
+  0% {
+    top: 30vw;
+    left: 6.6vw;
+    transform: rotate(10deg);
+  }
+  100% {
+    top: 34vw;
+    left: 3vw;
+    transform: rotate(18deg);
+  }
+}
+
+.deformAnim9 {
+  animation: deformAnim9 0.3s ease-out forwards;
+}
+
+@keyframes deformAnim9 {
+  0% {
+    top: 23.8vw;
+    left: 42.4vw;
+    transform: rotate(0deg);
+  }
+  100% {
+    top: 26vw;
+    left: 38vw;
+    transform: rotate(180deg);
+  }
+}
+
+.deformAnim10 {
+  animation: deformAnim10 0.3s ease-out forwards;
+}
+@keyframes deformAnim10 {
+  0% {
+    top: 25.4vw;
+    left: 54vw;
+    transform: rotate(-128deg);
+  }
+  100% {
+    top: 28vw;
+    left: 59vw;
+    transform: rotate(-140deg);
+  }
+}
